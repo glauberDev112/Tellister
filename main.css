@@ -1,0 +1,66 @@
+body {
+    font-family: 'Oxygen', sans-serif;
+    color: rgb(0, 0, 0);
+    background-color: rgb(217, 247, 231);
+}
+.main-header img {
+    height: 60px;
+    margin: 0;
+    display: inline;
+}
+.main-header h1 {
+    padding-right: 10px;
+    font-family: 'Noto Serif', serif;
+    font-size: 34px;
+    font-weight: 900;
+}
+.main-header {
+    display: inline-flex;
+    padding-right: 732px;
+    margin-bottom: 10px;
+    border-color: green;
+    border-style: solid;
+}
+.main-header,
+.set-title {
+    padding-left: 5px;
+    padding-top: 10px;
+    padding-bottom: 3px;
+    background-color: rgba(63, 139, 114, 0.541);
+}
+h2 {
+    padding: 0;
+    margin: 0;
+}
+textarea {
+    height: 120px;
+    width: 363px;
+    resize: none;
+}
+textarea *:focus {
+    padding: 0;
+    margin: 0;
+}
+form {
+    margin: 12px;
+}
+form * {
+    margin: 5px;
+}
+.bold {
+    font-weight: bold;
+}
+button {
+    border: none;
+    outline-color: rgba(95, 215, 231, 0.651);
+    outline-style: ridge;
+    outline-offset: 1px;
+    box-shadow: 5px 5px 30px rgba(102, 107, 29, 0.555);
+    background-color: rgb(125, 187, 64);
+}
+button:hover {
+    box-shadow: 5px 5px 30px rgba(102, 107, 29, 0);
+}
+table tbody tr td:hover {
+    font-size: 30px;
+}
